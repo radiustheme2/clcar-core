@@ -3,7 +3,7 @@
 Plugin Name: ClCar Core
 Plugin URI: https://www.radiustheme.com
 Description: ClCar Theme Core Plugin
-Version: 2.2.1
+Version: 2.2.2
 Author: RadiusTheme
 Author URI: https://www.radiustheme.com
 */
@@ -13,8 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if ( ! defined( 'CLCAR_CORE' ) ) {
-	$plugin_data = get_file_data( __FILE__, [ 'version' => 'Version' ] );
-	define( 'CLCAR_CORE', $plugin_data['version'] );
+	define( 'CLCAR_CORE', '2.2.2' );
 	define( 'CLCAR_CORE_THEME_PREFIX', 'clcar' );
 	define( 'CLCAR_CORE_BASE_URL', plugin_dir_url( __FILE__ ) );
 	define( 'CLCAR_CORE_BASE_DIR', plugin_dir_path( __FILE__ ) );
